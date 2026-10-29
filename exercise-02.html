@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exercise 2 - Heading + Paragraph | Bootstrap Practical 01</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <header class="border-bottom mb-4">
+    <nav class="container py-3 d-flex flex-wrap justify-content-between align-items-center gap-3" aria-label="Exercise navigation">
+      <a class="text-decoration-none fw-bold text-dark" href="index.html">Bootstrap Practical 01</a>
+      <div class="d-flex flex-wrap gap-2">
+          <a class="btn btn-sm btn-outline-secondary" href="exercise-01.html" aria-label="Exercise 1">1</a>
+          <a class="btn btn-sm btn-primary" href="exercise-02.html" aria-label="Exercise 2" aria-current="page">2</a>
+          <a class="btn btn-sm btn-outline-secondary" href="exercise-03.html" aria-label="Exercise 3">3</a>
+          <a class="btn btn-sm btn-outline-secondary" href="exercise-04.html" aria-label="Exercise 4">4</a>
+          <a class="btn btn-sm btn-outline-secondary" href="exercise-05.html" aria-label="Exercise 5">5</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container mb-4">
+      <p class="small fw-semibold text-primary text-uppercase mb-1">Exercise 02 / 05</p>
+      <h1 class="h4">Heading + Paragraph</h1>
+    </div>
+
+    <!-- Exercise 2: the exact content and Bootstrap classes from the practical. -->
+    <div class="container">
+      <h2>My First Container</h2>
+      <p>This is inside a Bootstrap container.</p>
+    </div>
+
+    <section class="container mt-5" aria-label="Exercise explanation">
+      <p class="text-secondary"><strong>Tip:</strong> Both the heading and paragraph share the same left alignment.</p>
+      <details class="border rounded p-3">
+        <summary class="fw-semibold">View exercise HTML</summary>
+        <pre class="bg-light p-3 mt-3 mb-0 rounded"><code>&lt;div class=&quot;container&quot;&gt;
+      &lt;h2&gt;My First Container&lt;/h2&gt;
+      &lt;p&gt;This is inside a Bootstrap container.&lt;/p&gt;
+    &lt;/div&gt;</code></pre>
+      </details>
+    </section>
+  </main>
+
+  <footer class="container py-4 mt-4">
+    <nav class="d-flex flex-wrap justify-content-between gap-3" aria-label="Previous and next exercise">
+      <a class="btn btn-outline-secondary" href="exercise-01.html">&larr; Previous</a>
+      <a class="btn btn-primary" href="exercise-03.html">Next exercise &rarr;</a>
+    </nav>
+  </footer>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
